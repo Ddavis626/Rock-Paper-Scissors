@@ -1,0 +1,94 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: #287DD7;
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  h1, h2, p{
+  display: flex;
+  justify-content: center;
+  }
+  
+  h1{
+    background: #EB9214;
+    font-family: 'Silkscreen', cursive;
+    font-size: 80px;
+    outline-style: outset;
+    outline-width: 4px;
+    outline-color:#b58a4f;
+  }
+  h2{
+    background: #EB2714;
+    font-family: 'Silkscreen', cursive;
+    outline-style: outset;
+    outline-width: 4px;
+    outline-color: #a74b42;
+  }
+  
+  p{
+    background: #D8EB14;
+    font-family: 'Silkscreen', cursive;
+    outline-style: outset;
+    outline-width: 4px;
+    outline-color: #9aa33b;
+  }
+  
+  img{
+  padding-right: 120px;
+  }
+  
+  main{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h3{
+    border: 1px solid black;
+    outline-style: outset;
+    outline-width: 4px;
+    padding-bottom: 500px;
+    font-size: 100px;
+    color: red;
+    font-weight: bold;
+  }
+  
+  input{
+    color: white;
+  }
+  
+  lable{
+    font-family: 'Silkscreen', cursive;
+  }
+  
+  @media only screen and (max-width: 900px){
+    h1{
+      font-size: 25px;
+    }
+    
+    img{
+      margin-left: 63px;
+    }
+    
+  }
+  
